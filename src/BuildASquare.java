@@ -1,12 +1,11 @@
 import java.util.Arrays;
 
 public class BuildASquare {
-    public static final String generateShape(int n) {
+    public static String generateShape(int n) {
+        StringBuilder sb = new StringBuilder();
 
 
-
-        }
-        //return Arrays.toString(chars);
+        return sb.toString();
     }
 
     public static void main(String[] args) {
