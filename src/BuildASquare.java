@@ -1,10 +1,10 @@
-import java.util.Arrays;
-
 public class BuildASquare {
     public static String generateShape(int n) {
         StringBuilder sb = new StringBuilder();
-
-
+        for (int i = 0; i < n; i++) {
+            sb.append("+".repeat(n));
+            sb.append((i==n-1)?"":"\n");
+        }
         return sb.toString();
     }
 
